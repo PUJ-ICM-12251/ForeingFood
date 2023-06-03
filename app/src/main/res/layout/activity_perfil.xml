@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilActivity">
+
+    <!-- Botón para tomar una foto -->
+
+    <!-- Botón para seleccionar una imagen de la galería -->
+
+    <!-- TextViews para mostrar los datos del usuario -->
+
+    <ImageView
+        android:id="@+id/imagePerfil"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/usuario_vacio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTomarFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagePerfil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="12dp"
+        android:text="Tomar Foto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagePerfil" />
+
+    <Button
+        android:id="@+id/btnSeleccionarImagen"
+        android:layout_width="186dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/btnTomarFoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="112dp"
+        android:text="Seleccionar Imagen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTomarFoto"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="320dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/btnSeleccionarImagen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="Nombre: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeleccionarImagen" />
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="320dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="Username: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNacionalidad" />
+
+    <TextView
+        android:id="@+id/txtCorreo"
+        android:layout_width="320dp"
+        android:layout_height="33dp"
+        android:layout_below="@id/txtNombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Correo: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
+
+    <TextView
+        android:id="@+id/txtNacionalidad"
+        android:layout_width="320dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/txtCorreo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Nacionalidad: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCorreo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

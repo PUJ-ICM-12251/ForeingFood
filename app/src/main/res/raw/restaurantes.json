@@ -1,0 +1,29 @@
+{
+  "restaurantes": [
+    {
+      "nombre": "Restaurante Mexicano El Sabor",
+      "latitud": 4.667593,
+      "longitud": -74.053965
+    },
+    {
+      "nombre": "Taquería La Fiesta",
+      "latitud": 4.673210,
+      "longitud": -74.058420
+    },
+    {
+      "nombre": "Cantina Mexicana El Ranchero",
+      "latitud": 4.664782,
+      "longitud": -74.056748
+    },
+    {
+      "nombre": "El Rinconcito Mexicano",
+      "latitud": 4.671890,
+      "longitud": -74.052399
+    },
+    {
+      "nombre": "La Cocina de México",
+      "latitud": 4.675239,
+      "longitud": -74.050752
+    }
+  ]
+}

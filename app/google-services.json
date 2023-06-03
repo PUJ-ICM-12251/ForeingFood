@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "538642085321",
+    "project_id": "foreingfood-54e7e",
+    "storage_bucket": "foreingfood-54e7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538642085321:android:b86ab142a33ff9c91a6418",
+        "android_client_info": {
+          "package_name": "com.example.proyectforeingfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538642085321-pifgvduoh7jb3de674c0bfge8f54a1f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl5k26WETBmvHb05PPVEcYlowYinjetiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538642085321-pifgvduoh7jb3de674c0bfge8f54a1f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
